@@ -7,9 +7,6 @@
 6565
 666
 echo "Hello, World!"
-echo "Hello,good is my habit
-echo "Hello,good is my habit"nahayakkldold
-echo "Hello,good is my habit"nahayakkldold
-
-echo "Hello,good is my habit"nahayakkldold
-
+nayanatara
+anusha 
+eliyna
