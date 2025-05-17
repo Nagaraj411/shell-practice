@@ -10,3 +10,6 @@ echo "Hello, World!"
 nayanatara
 anusha 
 eliyna
+gopika
+julia
+sree
