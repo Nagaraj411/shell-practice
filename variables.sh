@@ -1,5 +1,7 @@
 #!bit/bash
 
-echo "modi : mera bharat mahan hai"
-echo "modi : mera bharat mata jai"
-echo "modi : mera bharat mata ki jai INDIA"
+PERSON1 = "Nagaraju"
+
+echo "PERSON1 : mera bharat mahan hai"
+echo "PERSON1 : mera bharat mata jai"
+echo "PERSON1 : mera bharat mata ki jai INDIA"
