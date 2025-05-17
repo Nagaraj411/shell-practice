@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Hello, World!"
-my name is Nagaraju
+echo "name is Nagaraju"
