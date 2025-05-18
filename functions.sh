@@ -61,3 +61,4 @@ then
 else
     echo "nginx already installed. Nothing to do"       # 1 not equal 0 --True already installed nginx
 fi      #55-64 line are nginx package installation commands
+12
