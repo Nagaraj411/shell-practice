@@ -4,7 +4,7 @@ USERID=$1
 
 if [ $USERID -ne 0 ]   #id -u (when root asscess)
 then
-    echo "The logic is Correct"
-else
     echo "The logic is NotCorrect"
+else
+    echo "The logic is Correct"
 fi
