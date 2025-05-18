@@ -25,7 +25,7 @@ then
         exit 1
     fi
 else
-    echo "MySQL is already installed...Nothing to do bye"
+    echo "MySQL is already installed...Nothing to do"
 fi
 # dnf install mysql -y
 
