@@ -8,8 +8,3 @@ else
     echo "Please run with sudo user"
     exit 1
 fi
-
-12333256
-
-
-
