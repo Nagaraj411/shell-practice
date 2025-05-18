@@ -8,7 +8,7 @@ USERID=$(id -u)
 
 if [ $USERID -eq 0 ]
 then
-    echo "✅ Running with sudo user..."  #first lone print message if 0 eual to 0
+    echo "✅ Running with sudo user..."  #first lone print message if 0 equal to 0
 else
     echo "❌ Run with sudo user to install packages"
     exit 1
