@@ -2,7 +2,7 @@
 
 #Use case - Install Mysql, nginx, python3 packages by using function
 
-#check wethere you are running with sudo user
+#check whether you are running with sudo user
 
 USERID=$(id -u)
 
