@@ -12,7 +12,7 @@ then
 else
     echo "❌ Run with sudo user to install packages"
     exit 1
-fi
+fi          #7-15 line are root user checking commands
 
 #function to validate package installed succesfully or not
 
@@ -25,7 +25,8 @@ VALIDATE(){
         echo "❌ $2 failed to install..."
         exit 1
     fi
-}
+}            #19-28 line are validate function for all packages (Mysql, nginx &  python3)
+
 
 #Installing Mysql package
 dnf list installed mysql
@@ -36,7 +37,7 @@ then
     VALIDATE $? mysql
 else
     echo "Mysql already installed. Nothing to do"
-fi
+fi           #32-40 line are mysql package installation commands
 
 #Installing python3 package
 dnf list installed python3
@@ -47,7 +48,7 @@ then
     VALIDATE $? python3
 else
     echo "python3 already installed. Nothing to do"
-fi
+fi         #43-52 line are python3 package installation commands
 
 
 #Installing nginx package
@@ -59,4 +60,4 @@ then
     VALIDATE $? nginx
 else
     echo "nginx already installed. Nothing to do"
-fi
+fi      #55-64 line are nginx package installation commands
