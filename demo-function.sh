@@ -3,8 +3,8 @@
 USERID=$(id -u)
 if [ $USERID -eq 0 ]    
 then
- echo "Please run with sudo user"
+ echo "Running with sudo user"
 else 
-    echo "Running with sudo user"
+    echo "Please run with sudo user"
     exit 1
 fi
