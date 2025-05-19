@@ -8,4 +8,3 @@ then
 else
     echo "given number $USERID is equal to 0"
 fi
-12
