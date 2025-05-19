@@ -18,7 +18,7 @@ fi
 VALIDATE(){
     if [ $1 -eq 0 ]
     then
-        echo -e "Installing $2 is ... $G SUCCESS $N"
+        echo -e "Installing $2 is ... $G SUCCESS $N"  # -e is used to enable color
     else
         echo -e "Installing $2 is ... $R FAILURE $N"
         exit 1
