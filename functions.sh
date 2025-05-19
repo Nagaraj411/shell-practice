@@ -16,7 +16,7 @@ fi          #7-15 line are root user checking commands
 
 #function to validate package installed succesfully or not
 
-VALIDATE(){
+VALIDATE(){     # validate functions takes input as exit status, what command they tried to install
 
     if [ $1 -eq 0 ]
     then
