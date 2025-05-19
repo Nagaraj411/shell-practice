@@ -9,10 +9,9 @@ USERID=$(id -u)
 if [ $USERID -ne 0 ]
 then
     echo "❌ Run with sudo user to install packages" #first lone print message if 0 equal to 0
-
+    exit 1
 else
     echo "✅ Running with sudo user..."
-
 fi          #9-15 line are root user checking commands
 
 #function to validate package installed succesfully or not
