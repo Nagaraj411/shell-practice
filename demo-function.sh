@@ -12,7 +12,7 @@ then
 
 else
     echo "✅ Running with sudo user..."
-    exit 1
+
 fi          #9-15 line are root user checking commands
 
 #function to validate package installed succesfully or not
