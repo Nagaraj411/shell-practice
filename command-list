@@ -4,4 +4,4 @@
 mkdir -p /tmp/shell-practice]  # folder create kakapote create chestudi, already create vunte error radu
 
 echo -e "Installing $2 is ... $R FAILURE $N"  # -e is used to enable color
-&>>$LOG_FILE # redirect both stdout and stderr to log file  # paste where log file create, save the logs file
+&>>$LOG_FILE # redirect both stdout and stderr to log file  # paste where log file create, store inside logs file
