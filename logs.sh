@@ -31,31 +31,31 @@ VALIDATE(){
     fi
 }
 
-dnf list installed mysql | tee -a $LOG_FILE
+dnf list installed mysql
 if [ $? -ne 0 ]
 then
-    echo "MySQL is not installed... going to install it" | tee -a $LOG_FILE
-    dnf install mysql -y | tee -a $LOG_FILE
+    echo "MySQL is not installed... going to install it" 
+    dnf install mysql -y 
     VALIDATE $? "MySQL"
 else
     echo -e "Nothing to do MySQL... $Y already installed $N" | tee -a $LOG_FILE
 fi
 
-dnf list installed python3 | tee -a $LOG_FILE
+dnf list installed python3 
 if [ $? -ne 0 ]
 then
-    echo "python3 is not installed... going to install it" | tee -a $LOG_FILE
-    dnf install python3 -y | tee -a $LOG_FILE
+    echo "python3 is not installed... going to install it" 
+    dnf install python3 -y 
     VALIDATE $? "python3"
 else
     echo -e "Nothing to do python... $Y already installed $N" | tee -a $LOG_FILE
 fi
 
-dnf list installed nginx | tee -a $LOG_FILE
+dnf list installed nginx 
 if [ $? -ne 0 ]
 then
-    echo "nginx is not installed... going to install it" | tee -a $LOG_FILE
-    dnf install nginx -y | tee -a $LOG_FILE
+    echo "nginx is not installed... going to install it" 
+    dnf install nginx -y 
     VALIDATE $? "nginx"
 else
     echo -e "Nothing to do nginx... $Y already installed $N" | tee -a $LOG_FILE
