@@ -1,0 +1,6 @@
+#!/bin/bash
+
+[mkdir -p $LOGS_FOLDER  # create logs folder if not exists
+mkdir -p /tmp/shell-practice]  # folder create kakapote create chestudi, already create vunte error radu
+
+echo -e "Installing $2 is ... $R FAILURE $N"  # -e is used to enable color
