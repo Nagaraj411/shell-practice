@@ -8,3 +8,6 @@ echo -e "Installing $2 is ... $R FAILURE $N"  # -e is used to enable color
 logs Command
 &>>$LOG_FILE # redirect both stdout and stderr to log file  # paste where log file create, store inside logs file
 | tee -a $LOG_FILE # ee command lo display chestundi & log file lo store chestundi
+
+#for package in ${PACKAGES[@]}  # ${PACKAGES[@]} is used to pass all elements of the array in packages
+for package in $@ # $@ is used to pass all arguments to the script in packages
