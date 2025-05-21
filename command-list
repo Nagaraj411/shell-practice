@@ -11,3 +11,5 @@ logs Command
 
 #for package in ${PACKAGES[@]}  # ${PACKAGES[@]} is used to pass all elements of the array in packages
 for package in $@ # $@ is used to pass all arguments to the script in packages
+
+# -e is Temporary file, -f is Permanent file
