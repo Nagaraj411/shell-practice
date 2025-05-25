@@ -11,7 +11,7 @@
 #         echo "No old files to delete."
 #     fi  
 
-# done
+# done < variables.sh
 
 while IFS= read -r line
 
