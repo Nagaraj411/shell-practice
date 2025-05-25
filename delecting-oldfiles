@@ -2,7 +2,7 @@
 
 a=0
 
-while [ $a -lt 10 ]
+while [ $a -ne 10 ]
 do
     echo "the value a is $a"
     a=$((a + 1))
