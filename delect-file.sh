@@ -41,3 +41,8 @@ USAGE(){
     echo -e "$R USAGE:: $N sh 20-backup.sh <source-dir> <destination-dir> <days(optional)>"
     exit 1
 }
+
+if [ $# -lt 2 ]
+then
+    USAGE
+fi
