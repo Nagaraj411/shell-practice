@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$PERSON1=$1    #    there should be not space around before & abfter for =
+PERSON1=$1    #    there should be not space around before & abfter for =
 #  $1 : with out given name in variable
 
 
