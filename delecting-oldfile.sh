@@ -8,10 +8,10 @@
 # done
 
 
-while=IFS read -r line
+while IFS= read -r line
 do
     echo "Processing line: $line"
-    if find . -name "*.log" -mtime +60; then
+    if (find . -name "*.log" -mtime +60); then
         echo "Deleting old file: $line"
         rm "$line"
     else
